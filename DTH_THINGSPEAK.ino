@@ -1,6 +1,16 @@
 #include <ThingSpeak.h>
 #include <WiFi.h>
 #include "DHT.h"
+#Autores: Valery Salinas,Ana Amezquita,Camila Lopez,Isabella Nieto
+#Correos Electrónicos: valery.salinas@correounivalle.edu.co, Ana.amezquita@correounivalle.edu.co, maria.lopez.bedoya@correounivalle.edu.co, isabella.nieto@correounivalle.edu.co
+#Fecha de Creación: 2024-11-12
+#Fecha de Última Modificación: 2024-11-12
+
+#Versión: 1.0.0
+
+#Descripción:
+#Este programa gestiona un inventario de productos. Permite agregar nuevos productos,
+#actualizar el stock, y mostrar los detalles del inventario.
 
 // Definición del pin y tipo del DHT22
 #define DHT_PIN 17
